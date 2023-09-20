@@ -203,22 +203,66 @@ h1 {
   border: 1em solid rgb(206, 147, 210);
   width: 11em;
   height: 2em;
+  display: flex;
+  align-items:center; 
+  justify-content: center;
+}
+
+.X{
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 1.5em;
+  background-color: black;
 }
 .boxXABYMiddle{
   border: 1em solid rgb(206, 147, 210);
   width: 11em;
   height: 2em;
+  display: flex;
+  align-items:center; 
+  justify-content:space-around;
+}
+.Y{
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 1.5em;
+  background-color: black;
+}
+.A{
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 1.5em;
+  background-color: black;
 }
 .boxXABYDown{
   border: 1em solid rgb(206, 147, 210);
   width: 11em;
   height: 2em;
+  display: flex;
+  align-items:center; 
+  justify-content: center;
+}
+.B{
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 1.5em;
+  background-color: black;
 }
 
 .boxJoystickRight{
   border: 1em solid rgb(206, 147, 210);
   width: 11em;
   height: 4em;
+  display: flex;
+  align-items:center; 
+  justify-content: center;
+}
+
+.joystickRight{
+  width: 4em;
+  height: 4em;
+  border-radius: 4em;
+  background-color: black;
 }
 
 
@@ -227,4 +271,16 @@ h1 {
   width: 11em;
   height: 5em;
 
+  display: flex;
+  align-items:start; 
+  justify-content:start;
+
+}
+
+.home{
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 1.5em;
+  background-color: black;
+  margin-left: 2em;
 }
