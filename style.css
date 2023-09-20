@@ -120,6 +120,17 @@ h1 {
   border: 1em solid rgb(206, 147, 210);
   width: 11em;
   height: 5em;
+  display: flex;
+  align-items:start; 
+  justify-content:end;
+}
+
+.photo{
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 0.2em;
+  background-color: black;
+  margin-right: 2em;
 
 }
 
