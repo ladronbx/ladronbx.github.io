@@ -33,9 +33,8 @@ h1 {
 
 .boxSelect{
   display: flex;
-  flex-direction: column;
-  align-items: flex-end; /* Alinea los elementos en la esquina inferior derecha */
-  justify-content: flex-end; /* Alinea los elementos en la esquina inferior derecha */
+  align-items: flex-end; 
+  justify-content: flex-end;
   border: 1em solid rgb(206, 147, 210);
   width: 11em;
   height: 3em;
@@ -51,6 +50,16 @@ h1 {
   border: 1em solid rgb(206, 147, 210);
   width: 11em;
   height: 4em;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+.joystickLeft{
+  width: 4em;
+  height: 4em;
+  border-radius: 4em;
+  background-color: black;
 }
 
 .boxDirectionTop{
