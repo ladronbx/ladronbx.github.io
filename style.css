@@ -7,11 +7,9 @@ body {
   margin: 0;
 }
 
-h1, .containerMain {
-  text-align: center;
-}
 
 h1 {
+  text-align: center;
   color: aqua;
   font-size: 2em;
 }
@@ -19,30 +17,98 @@ h1 {
 .containerMain {
   display: flex;
   justify-content: center;
-  background-color: rgb(0, 255, 38);
-  width: 70em;
-  height: 30em;
+  border: 1em solid rgb(77, 255, 0);
+  width: 72em;
+  height: 32em;
 }
 
-
+/*JoyCon left*/
 
 .joyConLeft{
-  background-color: rgb(127, 246, 255);
+  border: 1em solid rgb(0, 238, 255);
   width: 15em;
   height: 30em;
 }
 
-.mounting{
 
-  background-color: rgb(255, 127, 240);
+.boxSelect{
+  border: 1em solid rgb(206, 147, 210);
+  width: 11em;
+  height: 3em;
+}
+
+.boxJoystickLeft{
+  border: 1em solid rgb(206, 147, 210);
+  height: 5em;
+}
+
+.boxDirection{
+  border: 1em solid rgb(206, 147, 210);
+  width: 11em;
+  height: 7em;
+}
+
+.boxPhoto{
+  border: 1em solid rgb(206, 147, 210);
+  width: 11em;
+  height: 7em;
+
+}
+
+/*Pantalla*/
+
+.mounting{
+  border: 1em solid rgb(0, 238, 255);
   width: 40em;
   height: 30em;
 
 }
 
+.boxScreen{
+  border: 1em solid rgb(206, 147, 210);
+  width: 38em;
+  height: 28em;
+
+}
+
+.oled{
+
+}
+
+
+
+
+
+/*JoyCon right*/
+
 .joyConRight{
-  background-color: rgb(127, 246, 255);
+  border: 1em solid rgb(0, 238, 255);
   width: 15em;
   height: 30em;
+
+}
+
+.boxStart{
+  border: 1em solid rgb(206, 147, 210);
+  width: 11em;
+  height: 3em;
+}
+
+.boxJoystickRight{
+  border: 1em solid rgb(206, 147, 210);
+  width: 11em;
+  height: 5em;
+}
+
+.boxXABY{
+  border: 1em solid rgb(206, 147, 210);
+  width: 11em;
+  height: 7em;
+}
+
+.boxHome{
+  border: 1em solid rgb(206, 147, 210);
+  width: 11em;
+  height: 7em;
 
 }
