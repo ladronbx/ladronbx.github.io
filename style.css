@@ -66,16 +66,54 @@ h1 {
   border: 1em solid rgb(206, 147, 210);
   width: 11em;
   height: 2em;
+  display: flex;
+  align-items:center; 
+  justify-content: center;
 }
+
+.top{
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 1.5em;
+  background-color: black;
+}
+
 .boxDirectionMiddle{
   border: 1em solid rgb(206, 147, 210);
   width: 11em;
   height: 2em;
+  display: flex;
+  align-items:center; 
+  justify-content:space-around;
+}
+
+.left{
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 1.5em;
+  background-color: black;
+}
+
+.right{
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 1.5em;
+  background-color: black;
 }
 .boxDirectionDown{
   border: 1em solid rgb(206, 147, 210);
   width: 11em;
   height: 2em;
+  display: flex;
+  align-items:center; 
+  justify-content:center;
+}
+
+.down{
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 1.5em;
+  background-color: black;
 }
 
 .boxPhoto{
