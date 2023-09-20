@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,6 +72,9 @@ h1 {
 }
 
 .oled{
+  border: 1em solid rgb(104, 17, 110);
+  width: 36em;
+  height: 26em;
 
 }
 
