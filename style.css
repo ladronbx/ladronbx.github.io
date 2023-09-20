@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1, .containerMain {
+  text-align: center;
+}
+
+h1 {
+  color: aqua;
+  font-size: 2em;
+}
+
+.containerMain {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 255, 38);
+  width: 70em;
+  height: 30em;
+}
+
+
+/*
+.joyConLeft{
+  background-color: rgb(127, 246, 255);
+  width: 15em;
+  height: 30em;
+}
+
+.mounting{
+
+  background-color: rgb(255, 127, 240);
+  width: 40em;
+  height: 30em;
+
+}
+
+.joyConRight{
+  background-color: rgb(127, 246, 255);
+  width: 15em;
+  height: 30em;
+
+}
+*/
