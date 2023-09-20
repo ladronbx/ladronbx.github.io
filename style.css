@@ -39,19 +39,30 @@ h1 {
 
 .boxJoystickLeft{
   border: 1em solid rgb(206, 147, 210);
-  height: 5em;
+  width: 11em;
+  height: 4em;
 }
 
-.boxDirection{
+.boxDirectionTop{
   border: 1em solid rgb(206, 147, 210);
   width: 11em;
-  height: 7em;
+  height: 2em;
+}
+.boxDirectionMiddle{
+  border: 1em solid rgb(206, 147, 210);
+  width: 11em;
+  height: 2em;
+}
+.boxDirectionDown{
+  border: 1em solid rgb(206, 147, 210);
+  width: 11em;
+  height: 2em;
 }
 
 .boxPhoto{
   border: 1em solid rgb(206, 147, 210);
   width: 11em;
-  height: 7em;
+  height: 5em;
 
 }
 
@@ -97,21 +108,32 @@ h1 {
   height: 3em;
 }
 
+.boxXABYTop{
+  border: 1em solid rgb(206, 147, 210);
+  width: 11em;
+  height: 2em;
+}
+.boxXABYMiddle{
+  border: 1em solid rgb(206, 147, 210);
+  width: 11em;
+  height: 2em;
+}
+.boxXABYDown{
+  border: 1em solid rgb(206, 147, 210);
+  width: 11em;
+  height: 2em;
+}
+
 .boxJoystickRight{
   border: 1em solid rgb(206, 147, 210);
   width: 11em;
-  height: 5em;
+  height: 4em;
 }
 
-.boxXABY{
-  border: 1em solid rgb(206, 147, 210);
-  width: 11em;
-  height: 7em;
-}
 
 .boxHome{
   border: 1em solid rgb(206, 147, 210);
   width: 11em;
-  height: 7em;
+  height: 5em;
 
 }
