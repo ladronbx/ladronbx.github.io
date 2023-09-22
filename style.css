@@ -36,15 +36,16 @@ h1 {
   position: relative;
   width: 8.1em;
   height: 24em;
+
+
+  
 }
 
 
 .boxSelect{
-  background-color: aqua;
-  display: flex;
+  background-color: rgb(22, 194, 237);
   align-items: center; 
   justify-content: flex-end;
-  border-left: 0.1em solid rgb(103, 232, 118);
   width: 8.1em;
   height: 6em;
   border-radius: 6em 0em 0em 0em ;
@@ -61,7 +62,7 @@ h1 {
 }
 
 .boxJoystickLeft{
-  border-left: 0.1em solid rgb(103, 232, 118);
+  background-color: rgb(22, 194, 237);
   width: 8.1em;
   height: 4.4em;
   display: flex;
@@ -80,7 +81,7 @@ h1 {
 }
 
 .boxDirectionTop{
-  border-left: 0.1em solid rgb(103, 232, 118);
+  background-color: rgb(22, 194, 237);
   width: 8.1em;
   height: 2em;
   display: flex;
@@ -97,7 +98,7 @@ h1 {
 }
 
 .boxDirectionMiddle{
-  border-left: 0.1em solid rgb(103, 232, 118);
+  background-color: rgb(22, 194, 237);
   width: 8.1em;
   height: 1.8em;
   display: flex;
@@ -121,7 +122,7 @@ h1 {
   background-color: black;
 }
 .boxDirectionDown{
-  border-left: 0.1em solid rgb(103, 232, 118);
+  background-color: rgb(22, 194, 237);
   width: 8.1em;
   height: 1.8em;
   display: flex;
@@ -138,7 +139,7 @@ h1 {
 }
 
 .boxWhiteLeft{
-  border-left: 0.1em solid rgb(103, 232, 118);
+  background-color: rgb(22, 194, 237);
   width: 8.1em;
   height: 3.2em;
   display: flex;
@@ -147,7 +148,7 @@ h1 {
 }
 
 .boxPhoto{
-  border-left: 0.1em solid rgb(103, 232, 118);
+  background-color: rgb(22, 194, 237);
   border-radius: 0em 0em 0em 6em;
   width: 8.1em;
   height: 5.8em;
@@ -177,26 +178,33 @@ h1 {
 
 /*Pantalla*/
 
-.rielRight, .rielLeft{
-  align-items: end;
-  padding: 0;
-  margin: 0;
-  border: 0.2em solid rgb(255, 255, 255);
-  width: 0.6em;
-  height: 23.2em;
-}
 
 .mounting{
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 0.3em solid rgb(206, 0, 0);
-  width: 41em;
-  height: 24.2em;
+  justify-content: space-between;
+  align-items: end;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+
+  width: 44em;
+  height: 25em;
 
 }
+
+.rielRight, .rielLeft{
+  background-color: rgba(0, 0, 0, 0.779);
+  padding: 0;
+  margin: 0;
+  border: 0.2em solid rgb(0, 0, 0);
+  width: 0.3em;
+  height: 24em;
+  position: relative;
+
+}
+
+
 
 .boxScreen{
   padding: 0;
@@ -204,9 +212,10 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 0.5 solid rgb(196, 64, 206);
-  width: 26em;
-  height:23em;
+  border: 0.5em solid rgb(27, 25, 25);
+  background-color: black;
+  width: 43em;
+  height:24em;
 
 }
 
@@ -241,11 +250,11 @@ h1 {
 
 
 .boxStart{
-  background-color: rgba(0, 255, 255, 0.344);
+  background-color: rgb(254, 94, 69);
   display: flex;
   align-items: end; 
   justify-content: center;
-  border-right: 0.1em solid rgb(103, 232, 118);
+
   width: 8.1em;
   height: 6em;
   border-radius: 0em 6em 0em 0em ;
@@ -285,7 +294,7 @@ h1 {
 
 .boxXABYMiddle{
   position: relative;
-  border-right: 0.1em solid rgb(103, 232, 118);
+  background-color: rgb(254, 94, 69);
   width: 8.1em;
   height: 3.8em;
   display: flex;
@@ -319,7 +328,7 @@ h1 {
 }
 .boxXABYDown{
   position: relative;
-  border-right: 0.1em solid rgb(103, 232, 118);
+  background-color: rgb(254, 94, 69);
   width: 8.1em;
   height: 1.8em;
   display: flex;
@@ -337,7 +346,7 @@ h1 {
 }
 
 .boxJoystickRight{
-  border-right: 0.1em solid rgb(103, 232, 118);
+  background-color: rgb(254, 94, 69);
   width: 8.1em;
   height: 4.4em;
   display: flex;
@@ -355,9 +364,9 @@ h1 {
 
 
 .boxHome{
-  border-top: 2px solid rgb(140, 255, 0);
-  border-right: 0.1em solid rgb(103, 232, 118);
-  border-right: 0.1em solid rgb(103, 232, 118);
+
+  background-color: rgb(254, 94, 69);
+
   width: 8.1em;
   height: 3.2em;
   display: flex;
@@ -366,17 +375,20 @@ h1 {
 }
 
 .home{
+  background-position: center;
+  background-size:77%; 
   width: 1.9em;
   height: 1.9em;
   border-radius: 1.9em;
-  background-color: black;
+  background-color: rgb(50, 44, 44);
   margin-left: 1.3em;
   margin-top: 0.7em;
 }
 
+
 .boxWhiteRight{
-  border-top: 0.1em solid rgb(140, 255, 0);
-  border-right: 0.1em solid rgb(103, 232, 118);
+
+  background-color: rgb(254, 94, 69);
   border-radius: 0em 0em 6em 0em;
   width: 8.1em;
   height: 5.8em;
@@ -384,4 +396,3 @@ h1 {
   align-items:start; 
   justify-content:start;
 }
-
