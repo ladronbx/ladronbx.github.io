@@ -4,7 +4,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  width: auto;
   margin: 0;
+  padding: 0;
 }
 
 
@@ -15,56 +17,71 @@ h1 {
 }
 
 .containerMain {
+  margin: 0;
+  padding: 0;
   display: flex;
-  justify-content: center;
-  border: 1em solid rgb(77, 255, 0);
-  width: 72em;
-  height: 32em;
+  /*background-image: url('img-readme/neon.png');
+  background-position: center;
+  background-size:cover;       */
+  justify-content:space-between;
+  width:60em;
+  height: 25em;
 }
+
+
 
 /*JoyCon left*/
 
 .joyConLeft{
-  border: 1em solid rgba(0, 238, 255, 0);
-  width: 15em;
-  height: 30em;
+  position: relative;
+  width: 8.1em;
+  height: 24em;
 }
 
 
 .boxSelect{
+  background-color: aqua;
   display: flex;
-  align-items: flex-end; 
+  align-items: center; 
   justify-content: flex-end;
-  border: 1em solid rgb(206, 147, 210, 0);
-  width: 11em;
-  height: 3em;
+  border-left: 0.1em solid rgb(103, 232, 118);
+  width: 8.1em;
+  height: 6em;
+  border-radius: 6em 0em 0em 0em ;
+  
 }
 .select{
-  width: 2em;
-  height: 0.7em;
-  border-radius: 1em;
-  background-color: black;
+  position: absolute;
+  width: 1.3em;
+  height: 0.4em;
+  border-radius: 0.1em;
+  background-color: rgba(0, 0, 0, 0.557);
+  left: 6.3em;
+  top: 2.3em;
 }
 
 .boxJoystickLeft{
-  border: 1em solid rgb(206, 147, 210, 0);
-  width: 11em;
-  height: 4em;
+  border-left: 0.1em solid rgb(103, 232, 118);
+  width: 8.1em;
+  height: 4.4em;
   display: flex;
-  align-items: center; 
+  align-items:flex-start; 
   justify-content: center;
 }
 
 .joystickLeft{
-  width: 4em;
-  height: 4em;
+  position: absolute;
+  top: 4.5em;
+  left: 2.6em;
+  width: 3.8em;
+  height: 3.8em;
   border-radius: 4em;
-  background-color: black;
+  background-color: rgb(55, 40, 40);
 }
 
 .boxDirectionTop{
-  border: 1em solid rgb(206, 147, 210, 0);
-  width: 11em;
+  border-left: 0.1em solid rgb(103, 232, 118);
+  width: 8.1em;
   height: 2em;
   display: flex;
   align-items:center; 
@@ -72,60 +89,77 @@ h1 {
 }
 
 .top{
-  width: 1.5em;
-  height: 1.5em;
-  border-radius: 1.5em;
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 1.8em;
+  margin-left: 0.7em;
   background-color: black;
 }
 
 .boxDirectionMiddle{
-  border: 1em solid rgb(206, 147, 210, 0);
-  width: 11em;
-  height: 2em;
+  border-left: 0.1em solid rgb(103, 232, 118);
+  width: 8.1em;
+  height: 1.8em;
   display: flex;
   align-items:center; 
   justify-content:space-around;
 }
 
 .left{
-  width: 1.5em;
-  height: 1.5em;
-  border-radius: 1.5em;
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 1.8em;
+  margin-left: 0.7em;
   background-color: black;
 }
 
 .right{
-  width: 1.5em;
-  height: 1.5em;
-  border-radius: 1.5em;
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 1.8em;
+  margin-left: 0.7em;
   background-color: black;
 }
 .boxDirectionDown{
-  border: 1em solid rgb(206, 147, 210, 0);
-  width: 11em;
-  height: 2em;
+  border-left: 0.1em solid rgb(103, 232, 118);
+  width: 8.1em;
+  height: 1.8em;
   display: flex;
   align-items:center; 
-  justify-content:center;
+  justify-content:space-around;
 }
 
 .down{
-  width: 1.5em;
-  height: 1.5em;
-  border-radius: 1.5em;
-  background-color: rgb(0, 0, 0);
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 1.8em;
+  margin-left: 0.7em;
+  background-color: black;
+}
+
+.boxWhiteLeft{
+  border-left: 0.1em solid rgb(103, 232, 118);
+  width: 8.1em;
+  height: 3.2em;
+  display: flex;
+  align-items:start; 
+  justify-content:end;
 }
 
 .boxPhoto{
-  border: 1em solid rgb(206, 147, 210, 0);
-  width: 11em;
-  height: 5em;
+  border-left: 0.1em solid rgb(103, 232, 118);
+  border-radius: 0em 0em 0em 6em;
+  width: 8.1em;
+  height: 5.8em;
   display: flex;
   align-items:start; 
   justify-content:end;
 }
 
 .photo{
+  position: absolute;
+  bottom: 5.2em;
+  left: 5.1em;
   width: 1.5em;
   height: 1.5em;
   border-radius: 0.2em;
@@ -136,28 +170,61 @@ h1 {
 
 
 
+
+
+
+
+
 /*Pantalla*/
 
+.rielRight, .rielLeft{
+  align-items: end;
+  padding: 0;
+  margin: 0;
+  border: 0.2em solid rgb(255, 255, 255);
+  width: 0.6em;
+  height: 23.2em;
+}
+
 .mounting{
-  border: 1em solid rgb(0, 238, 255);
-  width: 40em;
-  height: 30em;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.3em solid rgb(206, 0, 0);
+  width: 41em;
+  height: 24.2em;
 
 }
 
 .boxScreen{
-  border: 1em solid rgb(206, 147, 210, 0);
-  width: 38em;
-  height: 28em;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5 solid rgb(196, 64, 206);
+  width: 26em;
+  height:23em;
 
 }
 
 .oled{
-  border: 1em solid rgb(104, 17, 110);
-  width: 36em;
-  height: 26em;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.6 solid rgb(104, 17, 110);
+  width: 10em;
+  height:18.7em;
 
 }
+
+
+
+
 
 
 
@@ -165,122 +232,156 @@ h1 {
 
 /*JoyCon right*/
 
+
 .joyConRight{
-  border: 1em solid rgb(0, 238, 255, 0);
-  width: 15em;
-  height: 30em;
-
+  position: relative;
+  width: 8.1em;
+  height: 24em;
 }
-
 
 
 .boxStart{
-  border: 1em solid rgb(206, 147, 210,0);
-  width: 11em;
-  height: 3em;
-
+  background-color: rgba(0, 255, 255, 0.344);
   display: flex;
   align-items: end; 
-  justify-content: start;
+  justify-content: center;
+  border-right: 0.1em solid rgb(103, 232, 118);
+  width: 8.1em;
+  height: 6em;
+  border-radius: 0em 6em 0em 0em ;
+  
 }
-
 .x-axis{
   position: absolute;
-  margin-left: 0.6em;
-  width: 0.7em;
-  height: 2em;
-  border-radius: 1em;
-  background-color: black;
+  width: 1.3em;
+  height: 0.4em;
+  border-radius: 0.1em;
+  background-color: rgba(0, 0, 0, 0.557);
+  left: 0.4em;
+  top: 2.3em;
 }
 .y-axis{
-  margin-bottom: 0.6em;
-  width: 2em;
-  height: 0.7em;
-  border-radius: 1em;
-  background-color: black;
-}
-.boxXABYTop{
-  border: 1em solid rgb(206, 147, 210, 0);
-  width: 11em;
-  height: 2em;
-  display: flex;
-  align-items:center; 
-  justify-content: center;
+  position: absolute;
+  width: 0.4em;
+  height: 1.3em;
+  border-radius: 0.1em;
+  background-color: rgba(0, 0, 0, 0.557);
+  left: 0.9em;
+  top: 1.9em;
 }
 
+
+
+
+
 .X{
-  width: 1.5em;
-  height: 1.5em;
-  border-radius: 1.5em;
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 1.8em;
+  margin-right: 0.8em;
   background-color: black;
+  margin-bottom: 0.6em;
 }
+
 .boxXABYMiddle{
-  border: 1em solid rgb(206, 147, 210, 0);
-  width: 11em;
-  height: 2em;
+  position: relative;
+  border-right: 0.1em solid rgb(103, 232, 118);
+  width: 8.1em;
+  height: 3.8em;
   display: flex;
-  align-items:center; 
+  align-items:start; 
   justify-content:space-around;
+
 }
+
 .Y{
-  width: 1.5em;
-  height: 1.5em;
-  border-radius: 1.5em;
+  position: absolute;
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 1.8em;
+  margin-left: 0.7em;
   background-color: black;
+  left: 0.1em;
+  bottom: 2.6em;
+
 }
+
 .A{
-  width: 1.5em;
-  height: 1.5em;
-  border-radius: 1.5em;
+  position: absolute;
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 1.8em;
+  margin-left: 0.7em;
   background-color: black;
+  right: 1.7em;
+  bottom: 2.6em;
+
 }
 .boxXABYDown{
-  border: 1em solid rgb(206, 147, 210, 0);
-  width: 11em;
-  height: 2em;
+  position: relative;
+  border-right: 0.1em solid rgb(103, 232, 118);
+  width: 8.1em;
+  height: 1.8em;
   display: flex;
-  align-items:center; 
-  justify-content: center;
+  justify-content:center;
 }
+
 .B{
-  width: 1.5em;
-  height: 1.5em;
-  border-radius: 1.5em;
+  position: absolute;
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 1.8em;
   background-color: black;
+  bottom: 2.5em;
+  margin-right: 0.8em;
 }
 
 .boxJoystickRight{
-  border: 1em solid rgb(206, 147, 210, 0);
-  width: 11em;
-  height: 4em;
+  border-right: 0.1em solid rgb(103, 232, 118);
+  width: 8.1em;
+  height: 4.4em;
   display: flex;
-  align-items:center; 
+  align-items:flex-start; 
   justify-content: center;
 }
 
 .joystickRight{
-  width: 4em;
-  height: 4em;
+  margin-right: 0.7em;
+  width: 3.8em;
+  height: 3.8em;
   border-radius: 4em;
-  background-color: black;
+  background-color: rgb(55, 40, 40);
 }
 
 
 .boxHome{
-  border: 1em solid rgb(206, 147, 210, 0);
-  width: 11em;
-  height: 5em;
-
+  border-top: 2px solid rgb(140, 255, 0);
+  border-right: 0.1em solid rgb(103, 232, 118);
+  border-right: 0.1em solid rgb(103, 232, 118);
+  width: 8.1em;
+  height: 3.2em;
   display: flex;
-  align-items:start; 
+  align-items:center; 
   justify-content:start;
-
 }
 
 .home{
-  width: 1.5em;
-  height: 1.5em;
-  border-radius: 1.5em;
+  width: 1.9em;
+  height: 1.9em;
+  border-radius: 1.9em;
   background-color: black;
-  margin-left: 2em;
+  margin-left: 1.3em;
+  margin-top: 0.7em;
 }
+
+.boxWhiteRight{
+  border-top: 0.1em solid rgb(140, 255, 0);
+  border-right: 0.1em solid rgb(103, 232, 118);
+  border-radius: 0em 0em 6em 0em;
+  width: 8.1em;
+  height: 5.8em;
+  display: flex;
+  align-items:start; 
+  justify-content:start;
+}
+
