@@ -60,7 +60,7 @@ body {
   justify-content: flex-end;
   width: 8.1em;
   height: 6em;
-  border-radius: 6em 0em 0em 0em;
+  border-radius: 6em 0.25em 0em 0em;
 
 }
 
@@ -277,36 +277,74 @@ body {
   align-items: end;
   position: relative;
 
+
   width: 44em;
   height: 25em;
-   box-shadow: rgba(0, 0, 0, 0.25) 2em 1em 8em, rgba(0, 0, 0, 0.22) 0em 1em 1em;
+  box-shadow: rgba(0, 0, 0, 0.25) 2em 1em 8em, rgba(0, 0, 0, 0.22) 0em 1em 1em;
+
+}
+
+.boxRiel{
+  position: relative;
+  display: flex;
+  width: 0.7em;
+  height: 25em;
+  flex-direction: column-reverse;
 
 }
 
 .rielRight,
 .rielLeft {
-  background-color: rgba(0, 0, 0, 0.779);
+  background-color: rgb(28, 21, 21);
   padding: 0;
   margin: 0;
-  border: 0.2em solid rgb(0, 0, 0);
-  width: 0.3em;
+  width: 0.7em;
   height: 24em;
-  position: relative;
 
 }
 
 
+.rielLeft{
+  border-radius: 0.3em 0em 0em 0em;
+}
+.rielRight{
+  border-radius: 0em 0.3em 0em 0em;
+}
 
+.rielLeftWhite{
+  background-color: rgba(242, 232, 232, 0.939);
+
+  height: 0.89em;
+  width: 0.67em;
+  position: absolute;
+  top: 0.14em;
+  right: -0.1em;
+  border-radius:1em 0em 0.3em 0em;
+
+}
+.rielRightWhite{
+  background-color: rgba(242, 232, 232, 0.939);
+  background-color: rgba(82, 167, 7, 0.939);
+  height: 0.89em;
+  width: 0.67em;
+  position: absolute;
+  top: 0.14em;
+  right: 0.2em;
+
+  border-radius: 0.3em 1em 0.3em 0.3em;
+
+}
 .boxScreen {
   padding: 0;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 0.5em solid rgb(27, 25, 25);
+  border: 0.55em solid rgb(27, 25, 25);
   background-color: black;
   width: 43em;
   height: 24em;
+  border-radius: 0.5em 0.3em 0em 0em;
 
 }
 
@@ -359,10 +397,9 @@ body {
   display: flex;
   align-items: end;
   justify-content: center;
-
   width: 8.1em;
   height: 6em;
-  border-radius: 0em 6em 0em 0em;
+  border-radius: 0.25em 6em 0em 0em;
 
 }
 
