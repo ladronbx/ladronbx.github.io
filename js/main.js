@@ -103,3 +103,30 @@ containerMain.addEventListener('click', () => {
 });
 
 
+
+
+
+//Animaciones visibles:
+const toggleButton = document.getElementById('toggleAnimaciones');
+const champiElement = document.querySelector('.champi');
+const islaElement = document.querySelector('.isla');
+const tuboElement = document.querySelector('.tuberia');
+const tubo2Element = document.querySelector('.tuberia2');
+
+toggleButton.addEventListener('click', function () {
+  // Cambia la visibilidad de los elementos al hacer clic en el botón
+  if (champiElement.style.display === 'none') {
+    champiElement.style.display = 'block';
+    islaElement.style.display = 'block';
+    tuboElement.style.display = 'block';
+    tubo2Element.style.display = 'block';
+  } else {
+    champiElement.style.display = 'none';
+    islaElement.style.display = 'none';
+    tuboElement.style.display = 'none';
+    tubo2Element.style.display = 'none';
+  }
+});
+
+
+
