@@ -80,9 +80,9 @@ containerMain.addEventListener('click', () => {
       mounting.style.transform = 'translateY(13em)';
       break;
     case 2:
-      leftJoyCon.style.transform = 'translateX(42em)';
-      rightJoyCon.style.transform = 'translateX(0)';
-      mounting.style.transform = 'translateY(0) translateX(-20em)';
+      leftJoyCon.style.transform = 'translateY(-13em) translateX(45em)' ;
+      rightJoyCon.style.transform = 'translateY(-13em)  translateX(5em)';
+      mounting.style.transform = 'translateY(13em) translateX(-15em)';
       break;
     case 3:
       leftJoyCon.style.transform = 'translateY(-13em)';
