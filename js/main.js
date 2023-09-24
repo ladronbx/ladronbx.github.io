@@ -39,37 +39,45 @@ function restartVideo(videoElement) {
 
 
 
+const leftJoyCon = document.getElementById('leftJoyCon');
+const rightJoyCon = document.getElementById('rightJoyCon');
+const mounting = document.getElementById('mounting');
+const containerMain = document.getElementById('containerMain') 
 
+let eventCount = 0; 
 
-
-/*
-
-
-const homeButton = document.getElementById('home');
-const video = document.getElementById("video");
-
-homeButton.addEventListener("click", () => {
-    if (video.paused) {
-        video.play();
-    } else {
-        video.pause();
-    }
+containerMain.addEventListener('click', () => {
+  eventCount++; 
+  
+  switch (eventCount) {
+    case 1:
+      leftJoyCon.style.transform = 'translateY(-12em)'; 
+      rightJoyCon.style.transform = 'translateY(-12em)';
+      mounting.style.transform = 'translateY(20em)';
+      break;
+    case 2:
+      leftJoyCon.style.transform = 'translateX(40em)';
+      rightJoyCon.style.transform = 'translateX(0)';
+      mounting.style.transform = 'translateY(0) translateX(-20em)';
+      break;
+    case 3:
+      // Hacer el movimiento opuesto al caso 1
+      leftJoyCon.style.transform = 'translateY(-12em)'; 
+      rightJoyCon.style.transform = 'translateY(-12em)';
+      mounting.style.transform = 'translateY(20em)';
+      break;
+    case 4:
+      // Hacer el movimiento opuesto al caso 2
+      leftJoyCon.style.transform = 'translateX(0)';
+      rightJoyCon.style.transform = 'translateX(0)';
+      mounting.style.transform = 'translateY(0)';
+      eventCount = 0;
+      break;
+    default:
+      leftJoyCon.style.transform = 'translateY(0)';
+      rightJoyCon.style.transform = 'translateY(0)';
+      mounting.style.transform = 'translateY(0)';
+      eventCount = 0;
+      break;
+  }
 });
-const homeButton = document.getElementById('home');
-const video = document.getElementById("video");
-
-homeButton.addEventListener("click", () => {
-    const isVisible = video.style.display === 'block';
-    video.style.display = isVisible ? 'none' : 'block';
-});
-
-const boton = document.querySelector('.boton-encender');
-const img = document.getElementById("imagen")
-
-boton.addEventListener("click", () => {
-    const isVisible = img.style.display === 'block';
-    img.style.display = isVisible ? 'none' : 'block';
-});
-
-
-*/
