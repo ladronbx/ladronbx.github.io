@@ -35,19 +35,18 @@ Durante este proyecto, he aplicado los conocimientos adquiridos en la primera y 
 [<img src="img/img-readme/html-5.png" width="30">](https://developer.mozilla.org/es/docs/Web/HTML) [<img src="img/img-readme/css.png" width="30">](https://developer.mozilla.org/es/docs/Web/CSS) [<img src="img/img-readme/js.png" width="30">](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
 
-# ¿Cómo se ha hecho?
-### Planificación del diseño
+# ¿Cómo se ha diseñado?
+### Previa planificación del diseño
 
 ![Imagen diseño](img/img-readme/boceto-nintendo.svg)
 
 He usado el programa **Inkscape** para poder desarrollar una idea general de cómo idear y esbozar el diseño inicial del proyecto.
 ![Imagen diseño](img/img-readme/nintendoEstructura2.png)
 
-Después de analizar y planificar cuántos contenedores eran necesarios para mi diseño, procedí a asignar una clase específica a cada uno de ellos. Estas clases fueron nombradas de manera deliberada, buscando la claridad y concisión en sus denominaciones. Esta acción fue fundamental para facilitar mi trabajo tanto en el código HTML como en el CSS.
+Después de analizar y planificar cuántos contenedores eran necesarios para mi diseño, procedí a asignar una clase específica a cada uno de ellos. Estas clases fueron nombradas, buscando la claridad y concisión en sus denominaciones. Esta acción fue fundamental para facilitar mi trabajo tanto en el código HTML como en el CSS.
 
-La asignación de estas clases descriptivas tenía como objetivo principal organizar de manera efectiva la estructura de mi proyecto. Al utilizar nombres claros y concisos, pude identificar y seleccionar fácilmente los elementos en el código, lo que a su vez mejoró la legibilidad y mantenibilidad de mi proyecto.
 
-En resumen, esta etapa de asignación de clases fue una parte esencial, permitiéndome trabajar de manera eficiente en la implementación de mi diseño tanto en el HTML como en el CSS.
+Esta etapa de asignación de clases fue una parte esencial en el desarollo , permitiéndome trabajar de manera eficiente en la implementación de mi diseño tanto en el HTML como en el CSS.
 
 
 ![Imagen diseño](img/img-readme/nombreClases.png)
