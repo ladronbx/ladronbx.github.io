@@ -31,8 +31,8 @@
         <div class="boxJoystickLeft">
           <div class="joystickLeft">
             <div class="joystick">
-              
-          </div>
+
+            </div>
           </div>
           <div id="stick"></div>
           <div id="stick2"></div>
@@ -69,14 +69,25 @@
 
       <div class="mounting">
         <div class="boxRiel">
-        <div class="rielLeft"></div>
-        <div class="rielLeftWhite"></div>
-      </div>
+          <div class="rielLeft"></div>
+          <div class="rielLeftWhite"></div>
+        </div>
 
 
 
-        <div class="boxScreen">
-          <div class="oled"></div>
+        <div class="boxScreen" id="screen">
+
+          <div class="oled">
+            <video id="videoAnimal">
+              <source src="img/animal.mp4" type="video/mp4">
+            </video>
+            <video id="videoZelda">
+              <source src="img/zelda.mp4" type="video/mp4">
+            </video>
+            <video id="videoIntro">
+              <source src="img/intro.mp4" type="video/mp4">
+            </video>
+          </div>
         </div>
 
 
@@ -101,19 +112,25 @@
         <div class="boxStart">
           <div class="x-axis"></div>
           <div class="y-axis"></div>
-          <div class="X"><div id="letter">X</div></div>
+          <div class="X">
+            <div id="letter">X</div>
+          </div>
         </div>
 
         <div class="boxXABYMiddle">
-          <div class="Y"><div id="letter">Y</div></div>
-        <div class="A"><div id="letter">A</div></div>
+          <div class="Y" id="yButton">
+            <div class="letter">Y</div>
+          </div>
+          <div class="A" id="aButton">
+            <div class="letter">A</div>
+          </div>
         </div>
-        <div class="boxXABYDown">
-          <div class="B"><div id="letter">B</div></div>
+        <div class="boxXABYDown" id="bButton">
+          <div class="B">
+            <div class="letter">B</div>
+          </div>
         </div>
-
-
-
+        
         <div class="boxJoystickRight">
           <div class="joystickRight">
             <div class="Rjoystick"></div>
@@ -124,11 +141,11 @@
           <div id="Rstick4-shadow"></div>
           <div id="Rstick5-lines"></div>
         </div>
-
+        
         <div class="boxHome">
-
-          <div class="home"></div>
+          <div class="home" id="homeButton"></div>
         </div>
+        
 
 
         <div class="boxWhiteRight"> </div>
@@ -142,7 +159,7 @@
     <div class="shadow2"></div>
   -->
 
-
+  <script src="js/main.js"></script>
 </body>
 
 </html>

@@ -18,6 +18,8 @@ body {
 }
 
 
+
+
 .containerMain {
   margin: 0;
   padding: 0;
@@ -55,7 +57,7 @@ body {
 
 
 .boxSelect {
-  background: linear-gradient(to bottom, #8acbdb, #00BAE1);
+  background: linear-gradient(to bottom, rgb(190, 243, 211), rgb(128, 228, 166));
   align-items: center;
   justify-content: flex-end;
   width: 8.1em;
@@ -78,7 +80,7 @@ body {
 }
 
 .boxJoystickLeft {
-  background-color: #00BAE1;
+  background-color: rgb(128, 228, 166);
   width: 8.1em;
   height: 4.4em;
   display: flex;
@@ -161,7 +163,9 @@ body {
 
 
 .boxDirectionTop {
-  background-color: #00BAE1;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(128, 228, 166);
   width: 8.1em;
   height: 2em;
   display: flex;
@@ -179,7 +183,9 @@ body {
 }
 
 .boxDirectionMiddle {
-  background-color: #00BAE1;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(128, 228, 166);
   width: 8.1em;
   height: 1.8em;
   display: flex;
@@ -206,7 +212,9 @@ body {
 }
 
 .boxDirectionDown {
-  background-color: #00BAE1;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(128, 228, 166);
   width: 8.1em;
   height: 1.8em;
   display: flex;
@@ -224,7 +232,9 @@ body {
 }
 
 .boxWhiteLeft {
-  background-color: #00BAE1;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(128, 228, 166);
   width: 8.1em;
   height: 3.2em;
   display: flex;
@@ -233,14 +243,16 @@ body {
 }
 
 .boxPhoto {
-  background-color: #00BAE1;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(128, 228, 166);
   border-radius: 0em 0em 0em 6em;
   width: 8.1em;
   height: 5.8em;
   display: flex;
   align-items: start;
   justify-content: end;
-  background: linear-gradient(to bottom, #00BAE1, #02627a);
+  background: linear-gradient(to bottom, rgb(128, 228, 166), #027a5c);
   box-shadow: rgba(0, 0, 0, 0.25) 0em 0em 0em, rgba(0, 0, 0, 0.22) 0em 1.5em 1em;
 
 }
@@ -276,6 +288,7 @@ body {
   justify-content: space-between;
   align-items: end;
   position: relative;
+  z-index: -4;
 
 
   width: 44em;
@@ -340,7 +353,7 @@ body {
   justify-content: center;
   align-items: center;
   border: 0.55em solid rgb(27, 25, 25);
-  background-color: black;
+  background-color: rgb(28, 24, 24);
   width: 43em;
   height: 24em;
   border-radius: 0.5em 0.3em 0em 0em;
@@ -348,20 +361,54 @@ body {
 }
 
 .oled {
+  position: relative;
   padding: 0;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 0.6 solid rgb(104, 17, 110);
-  width: 10em;
-  height: 18.7em;
+  width: 40.5em;
+  height: 23em;
+  /*background-color: #252121e0;*/
 
 }
 
 
 
+#videoZelda{
+  position: absolute;
+  height: auto;
+  width: 102%;
 
+}
+
+
+#videoIntro{
+  position: absolute;
+  height: auto;
+  width: 102%;
+
+
+}
+
+#videoAnimal{
+  position: absolute;
+  height: auto;
+  width: 102%;
+  z-index: 2;
+  
+  }
+
+
+.letter{
+  margin-left: 0.6em;
+  margin-top: 0.4em;
+
+}
+
+#aButton:hover, #bButton:hover, #yButton:hover {
+  cursor: pointer;
+}
 
 
 
@@ -392,7 +439,9 @@ body {
 
 
 .boxStart {
-  background: linear-gradient(to bottom, #de5f65, #F22E38);
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, rgb(180, 233, 238), rgb(111, 213, 222));
   display: flex;
   align-items: end;
   justify-content: center;
@@ -442,7 +491,9 @@ body {
 
 .boxXABYMiddle {
   position: relative;
-  background-color: #F22E38;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(111, 213, 222);
   width: 8.1em;
   height: 3.8em;
   display: flex;
@@ -479,7 +530,9 @@ body {
 
 .boxXABYDown {
   position: relative;
-  background-color: #F22E38;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(111, 213, 222);
   width: 8.1em;
   height: 1.8em;
   display: flex;
@@ -500,7 +553,9 @@ body {
 
 .boxJoystickRight {
   position: relative;
-  background-color: #F22E38;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(111, 213, 222);
   width: 8.1em;
   height: 4.4em;
 }
@@ -580,7 +635,9 @@ body {
 
 .boxHome {
 
-  background-color: #F22E38;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(111, 213, 222);
 
   width: 8.1em;
   height: 3.2em;
@@ -602,9 +659,15 @@ body {
 }
 
 
-.boxWhiteRight {
+.home:hover{
+  cursor: pointer;
+}
 
-  background: linear-gradient(to bottom, #F22E38, #770208);
+.boxWhiteRight {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(111, 213, 222);
+  background: linear-gradient(to bottom, rgb(111, 213, 222), #026477);
   border-radius: 0em 0em 6em 0em;
   width: 8.1em;
   height: 5.8em;
