@@ -46,9 +46,6 @@ He usado el programa **Inkscape** para poder desarrollar una idea general de có
 Después de analizar y planificar cuántos contenedores eran necesarios para mi diseño, procedí a asignar una clase específica a cada uno de ellos. Estas clases fueron nombradas, buscando la claridad y concisión en sus denominaciones. Esta acción fue fundamental para facilitar mi trabajo tanto en el código HTML como en el CSS.
 
 
-Esta etapa de asignación de clases fue una parte esencial en el desarollo , permitiéndome trabajar de manera eficiente en la implementación de mi diseño tanto en el HTML como en el CSS.
-
-
 ![Imagen diseño](img/img-readme/nombreClases.png)
 
 

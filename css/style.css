@@ -776,35 +776,36 @@ right -0.02*/
 }
 
 
-/*
-.mario {
-  position: relative;
+.tuberia {
+  position: absolute;
   width: 4em;
-  height: 4em;
-  background: url('img/champi.png') repeat-x; 
-  top: 15em;
-  left: 0;
-  white-space: nowrap; 
-  
-  -webkit-animation: slide 5s linear infinite;
-  animation: slide 5s linear infinite;
+  height: auto;
+  left: 0em;
+  z-index: 4;
+  bottom: 0em;
+}
+.tuberia2 {
+  position: absolute;
+  width: 4em;
+  height: auto;
+  left: 95%;
+  z-index: 4;
+  bottom: 0em;
+}
+.champi {
+  position: absolute;
+  width: 4em;
+  height: auto;
+  z-index: 4;
+  bottom: 0em;
+  animation: movimientoInfinito 10s linear infinite;
 }
 
-@-webkit-keyframes slide {
-  0% {
-    left: -100%; 
+@keyframes movimientoInfinito {
+  0%, 100% {
+    left: 3em;
   }
-  100% {
-    left: 100%; 
-  }
-}
-
-@keyframes slide {
-  0% {
-    left: -100%;
-  }
-  100% {
-    left: 100%; 
+  50% {
+    left: 92%;
   }
 }
-*/
