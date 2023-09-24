@@ -32,7 +32,7 @@ Durante este proyecto, he aplicado los conocimientos adquiridos en la primera y 
 
 ## Tecnologías utilizadas:
 
-[<img src="img/img-readme/html-5.png" width="30">](https://lenguajehtml.com/html/) [<img src="img/img-readme/css.png" width="30">](https://desarrolloweb.com/manuales/css3.html) [<img src="img/img-readme/js.png" width="30">](https://developer.mozilla.org/es/docs/Web/JavaScript)
+[<img src="img/img-readme/html-5.png" width="30">](https://developer.mozilla.org/es/docs/Web/HTML) [<img src="img/img-readme/css.png" width="30">](https://developer.mozilla.org/es/docs/Web/CSS) [<img src="img/img-readme/js.png" width="30">](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
 
 # ¿Cómo se ha hecho?
@@ -47,13 +47,13 @@ Después de analizar y planificar cuántos contenedores eran necesarios para mi 
 
 La asignación de estas clases descriptivas tenía como objetivo principal organizar de manera efectiva la estructura de mi proyecto. Al utilizar nombres claros y concisos, pude identificar y seleccionar fácilmente los elementos en el código, lo que a su vez mejoró la legibilidad y mantenibilidad de mi proyecto.
 
-En resumen, esta etapa de asignación de clases fue una parte esencial de mi proceso de desarrollo, permitiéndome trabajar de manera eficiente en la implementación de mi diseño tanto en el HTML como en el CSS.
+En resumen, esta etapa de asignación de clases fue una parte esencial, permitiéndome trabajar de manera eficiente en la implementación de mi diseño tanto en el HTML como en el CSS.
 
 
 ![Imagen diseño](img/img-readme/nombreClases.png)
 
 
-Una vez definidas las clases. He investigado las medidas exactas de la consola en la página oficial de Nintendo. Con el propósito de realizar un diseño lo más preciso posible. 
+Una vez definidas las clases. He investigado las **medidas exactas** de la consola en la página oficial de **Nintendo**. Con el propósito de realizar **un diseño lo más preciso posible**. 
 ### Medidas Pantalla
 ![Imagen medidas](img/img-readme/medidas-nintendo.png)
 ### Medidas Joycons
