@@ -80,9 +80,9 @@ containerMain.addEventListener('click', () => {
       mounting.style.transform = 'translateY(13em)';
       break;
     case 2:
-      leftJoyCon.style.transform = 'translateX(42em)';
-      rightJoyCon.style.transform = 'translateX(0)';
-      mounting.style.transform = 'translateY(0) translateX(-20em)';
+      leftJoyCon.style.transform = 'translateY(-13em) translateX(45em)' ;
+      rightJoyCon.style.transform = 'translateY(-13em)  translateX(5em)';
+      mounting.style.transform = 'translateY(13em) translateX(-15em)';
       break;
     case 3:
       leftJoyCon.style.transform = 'translateY(-13em)';
@@ -101,5 +101,32 @@ containerMain.addEventListener('click', () => {
       break;
   }
 });
+
+
+
+
+
+//Animaciones visibles:
+const toggleButton = document.getElementById('toggleAnimaciones');
+const champiElement = document.querySelector('.champi');
+const islaElement = document.querySelector('.isla');
+const tuboElement = document.querySelector('.tuberia');
+const tubo2Element = document.querySelector('.tuberia2');
+
+toggleButton.addEventListener('click', function () {
+  // Cambia la visibilidad de los elementos al hacer clic en el botón
+  if (champiElement.style.display === 'none') {
+    champiElement.style.display = 'block';
+    islaElement.style.display = 'block';
+    tuboElement.style.display = 'block';
+    tubo2Element.style.display = 'block';
+  } else {
+    champiElement.style.display = 'none';
+    islaElement.style.display = 'none';
+    tuboElement.style.display = 'none';
+    tubo2Element.style.display = 'none';
+  }
+});
+
 
 

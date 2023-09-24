@@ -259,6 +259,9 @@ body {
 }
 
 .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 1.8em;
   height: 1.8em;
   border-radius: 1.8em;
@@ -266,6 +269,8 @@ body {
   background-color: #212020;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
+
+
 
 .boxDirectionMiddle {
   padding: 0;
@@ -279,6 +284,9 @@ body {
 }
 
 .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 1.8em;
   height: 1.8em;
   border-radius: 1.8em;
@@ -288,6 +296,9 @@ body {
 }
 
 .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 1.8em;
   height: 1.8em;
   border-radius: 1.8em;
@@ -308,6 +319,9 @@ body {
 }
 
 .down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 1.8em;
   height: 1.8em;
   border-radius: 1.8em;
@@ -350,11 +364,47 @@ body {
   height: 1.5em;
   border-radius: 0.2em;
   background-color: #212020;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  box-shadow: rgba(0, 0, 0, 0.25)  0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
   margin-right: 2em;
 
 }
 
+
+/*Flechas de botones, top, left, right y down */
+.topTriangle {
+  margin-bottom: 0.2em;
+  width: 0;
+  height: 0;
+  border-left: 0.5em solid transparent;
+  border-right: 0.5em solid transparent; 
+  border-bottom: 1em solid rgb(43, 42, 42);
+}
+.leftTriangle {
+  margin-right: 0.2em;
+  width: 0;
+  height: 0;
+  border-top: 0.5em solid transparent;
+  border-right: 1em solid rgb(43, 42, 42);
+  border-bottom: 0.5em solid transparent;
+}
+
+.rightTriangle {
+  margin-left: 0.2em;
+  width: 0;
+  height: 0;
+  border-top: 0.5em solid transparent;
+  border-left: 1em solid rgb(43, 42, 42);
+  border-bottom: 0.5em solid transparent;
+}
+
+.downTriangle {
+  margin-top: 0.2em;
+  width: 0;
+  height: 0;
+  border-top: 1em solid rgb(43, 42, 42);
+  border-left: 0.5em solid transparent;
+  border-right: 0.5em solid transparent;
+}
 
 
 
@@ -776,35 +826,71 @@ right -0.02*/
 }
 
 
-/*
-.mario {
-  position: relative;
+
+#toggleAnimaciones{
+  font-size: xx-small;
+  color: aliceblue;
+  border-radius: 1em;
+  left: 0.5em;
+  bottom: 0.5em;
+  width: 9em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  background-color: #84e1ca;
+  padding: 0.5em;
+
+
+}
+#toggleAnimaciones:hover{
+  cursor: pointer;
+}
+
+.tuberia {
+  position: absolute;
   width: 4em;
-  height: 4em;
-  background: url('img/champi.png') repeat-x; 
-  top: 15em;
-  left: 0;
-  white-space: nowrap; 
-  
-  -webkit-animation: slide 5s linear infinite;
-  animation: slide 5s linear infinite;
+  height: auto;
+  left: 6em;
+  z-index: 4;
+  bottom: -0.5em;
+}
+.tuberia2 {
+  position: absolute;
+  width: 4em;
+  height: auto;
+  right: 26.5em;
+  z-index: 4;
+  bottom: -0.5em;
 }
 
-@-webkit-keyframes slide {
-  0% {
-    left: -100%; 
+
+.champi {
+  position: absolute;
+  width: 4em;
+  height: auto;
+  z-index: 4;
+  bottom: 0em;
+  animation: movimientoInfinito 30s linear infinite;
+}
+
+@keyframes movimientoInfinito {
+  0%, 100% {
+    left: 9em;
   }
-  100% {
-    left: 100%; 
+  50% {
+    left: 73%;
   }
 }
 
-@keyframes slide {
-  0% {
-    left: -100%;
-  }
-  100% {
-    left: 100%; 
-  }
+
+.isla{
+  position: absolute;
+  width: 27em;
+  height: auto;
+  right: 0em;
+  z-index: -70;
+  bottom: 0em;
+
 }
-*/
