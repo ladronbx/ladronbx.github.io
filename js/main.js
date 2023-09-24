@@ -51,23 +51,21 @@ containerMain.addEventListener('click', () => {
   
   switch (eventCount) {
     case 1:
-      leftJoyCon.style.transform = 'translateY(-12em)'; 
-      rightJoyCon.style.transform = 'translateY(-12em)';
-      mounting.style.transform = 'translateY(20em)';
+      leftJoyCon.style.transform = 'translateY(-13em)'; 
+      rightJoyCon.style.transform = 'translateY(-13em)';
+      mounting.style.transform = 'translateY(13em)';
       break;
     case 2:
-      leftJoyCon.style.transform = 'translateX(40em)';
+      leftJoyCon.style.transform = 'translateX(42em)';
       rightJoyCon.style.transform = 'translateX(0)';
       mounting.style.transform = 'translateY(0) translateX(-20em)';
       break;
     case 3:
-      // Hacer el movimiento opuesto al caso 1
-      leftJoyCon.style.transform = 'translateY(-12em)'; 
-      rightJoyCon.style.transform = 'translateY(-12em)';
-      mounting.style.transform = 'translateY(20em)';
+        leftJoyCon.style.transform = 'translateY(-13em)'; 
+        rightJoyCon.style.transform = 'translateY(-13em)';
+        mounting.style.transform = 'translateY(13em)';
       break;
     case 4:
-      // Hacer el movimiento opuesto al caso 2
       leftJoyCon.style.transform = 'translateX(0)';
       rightJoyCon.style.transform = 'translateX(0)';
       mounting.style.transform = 'translateY(0)';
