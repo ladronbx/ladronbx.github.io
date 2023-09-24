@@ -8,7 +8,13 @@ html {
   font-size: 0.7em;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 0.4em;
+  }
+}
+
+@media only screen and (max-width: 680px) {
   html {
     font-size: 0.23em;
   }
@@ -57,6 +63,57 @@ body {
   width: 60em;
   height: 25em;
 
+}
+
+/*Botón offOn*/
+
+#offOn{
+
+  top: 0.25em;
+  left: 2.6em;
+  position: absolute;
+  background-color: #3a3434;
+  width: 1em;
+  height: 0.5em;
+  z-index: -1;
+  border-radius: 0.4em;
+}
+
+
+#offOn:hover{
+  cursor: pointer;
+}
+
+/*Botón subir y bajar volumen*/
+
+.downVol{
+  top: 0.25em;
+  left: 5em;
+  position: absolute;
+  background-color: #3a3434;
+  width: 2em;
+  height: 0.5em;
+  z-index: -1;
+  border-radius: 0.2em;
+}
+.downVol:hover{
+  cursor: pointer;
+}
+
+
+
+.upVol{
+  top: 0.25em;
+  left: 7.2em;
+  position: absolute;
+  background-color: #3a3434;
+  width: 2em;
+  height: 0.5em;
+  z-index: -1;
+  border-radius: 0.2em;
+}
+.upVol:hover{
+  cursor: pointer;
 }
 
 
@@ -309,24 +366,21 @@ body {
 
 
 .mounting {
-  background-color: #00bbe100;
   padding: 0;
   margin: 0;
   display: flex;
   justify-content: space-between;
   align-items: end;
   position: relative;
-  z-index: -4;
+  z-index: 4;
 
 
   width: 44em;
   height: 25em;
-  box-shadow: rgba(0, 0, 0, 0.25) 2em 1em 8em, rgba(0, 0, 0, 0.22) 0em 1em 1em;
 
 }
 
 .boxRiel{
-  background-color: rgb(231, 231, 231);
   position: relative;
   display: flex;
   width: 0.4em;
@@ -344,6 +398,8 @@ body {
   height: 24.5em;
 
 }
+/*top +0.3
+right -0.02*/
 
 
 .rielLeft{
@@ -355,21 +411,23 @@ body {
 
 .rielLeftWhite{
   background-color: rgb(231, 231, 231);
+
   height: 0.6em;
   width: 0.48em;
   position: absolute;
-  top: 0.14em;
-  right: -0.1em;
+  top: 0.44em;
+  right: -0.03em;
   border-radius:1em 0em 0.6em 0em;
 
 }
 .rielRightWhite{
   background-color: rgb(231, 231, 231);
+
   height: 0.6em;
-  width: 0.48em;
+  width: 0.47em;
   position: absolute;
-  top: 0.13em;
-  right: -0.1em;
+  top: 0.40em;
+  right: -0.03em;
   border-radius: 0em 1em 0em 0.6em;
 
 
@@ -383,7 +441,7 @@ body {
   border: 0.55em solid rgb(27, 25, 25);
   background-color: rgb(28, 24, 24);
   width: 43em;
-  height: 24em;
+  height: 23.5em;
   border-radius: 0.5em 0.3em 0em 0em;
 
 }
@@ -401,9 +459,16 @@ body {
 
 }
 
+#screenBlack{
+  background: linear-gradient(to bottom, rgb(50, 50, 50), rgb(9, 9, 9));
+  position: absolute;
+  width: 41.5em;
+  height: 23.2em;
+  z-index:0;
 
+}
 
-#videoZelda{
+#videoZelda {
   position: absolute;
   height: auto;
   width: 102%;
@@ -423,7 +488,6 @@ body {
   position: absolute;
   height: auto;
   width: 102%;
-  z-index: 2;
   
   }
 
