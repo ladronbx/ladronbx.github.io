@@ -72,21 +72,31 @@ Esta página web interactiva de la consola Nintendo Switch Oled te permite disfr
 
 #### Botones
 
-- **Botón Encendido/Apagado**: 
+- **Botón Encendido/Apagado**:
+
+
 ![Gif Video About](img/img-readme/botonOffOn.gif)
 
 
 
 - **Botón A**:
+
+
 ![Gif Video About](img/img-readme/aButton.gif)
 
 - **Botón X**: 
+
+
 ![Gif Video About](img/img-readme/xboton.gif)
 
 - **Botón B**:
+
+
 ![Gif Video About](img/img-readme/bButton.gif)
 
 - **Botón Y**: 
+
+
 ![Gif Video About](img/img-readme/yButton.gif)
 
 #### Melodía de Fondo
@@ -119,8 +129,11 @@ Si deseas ejecutar el proyecto localmente, sigue estos pasos:
 
 ### Media Query
 
-- **Botón Y**: 
+
+
 ![Gif Video About](img/img-readme/responsive.gif)
+
+
 
 El proyecto utiliza media queries para garantizar una experiencia de usuario óptima en pantallas de diferentes tamaños. A continuación, se describen algunas de las modificaciones realizadas para pantallas de diferentes tamaños:
 
