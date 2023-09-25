@@ -63,15 +63,19 @@ Una vez definidas las clases. He investigado las **medidas exactas** de la conso
 
 Esta página web interactiva de la consola Nintendo Switch Oled te permite disfrutar de varias funciones. A continuación, se describen las principales funciones y cómo usarlas:
 
-#### Botones
+![Gif Video About](img/movimiento.gif)
 
-- **Botón A**: Al hacer clic en este botón, se activa el video de Zelda. El video se superpone en la pantalla principal y puede cambiar su posición en la pantalla haciendo clic en el botón de encendido/apagado.
+#### Botones
+- **Botón Encendido/Apagado**: 
+
+
+- **Botón A**:
 
 - **Botón B**: Al hacer clic en este botón, se activa el video de la introducción. El video también se superpone en la pantalla principal y puede cambiar su posición en la pantalla haciendo clic en el botón de encendido/apagado.
 
 - **Botón Y**: Similar al botón A, al hacer clic en este botón, se activa el video de Zelda. Puedes cambiar su posición en la pantalla haciendo clic en el botón de encendido/apagado.
 
-- **Botón Encendido/Apagado**: Este botón tiene varias funciones. Al hacer clic en él, se reinicia el video de los animales y se cambia su posición en la pantalla. También inicia una melodía de fondo que puedes ajustar el volumen con los botones de volumen.
+
 
 - **Botones de Volumen**: Los botones "Subir Volumen" y "Bajar Volumen" te permiten ajustar el volumen de la melodía de fondo. Puedes subir o bajar el volumen haciendo clic en estos botones.
 

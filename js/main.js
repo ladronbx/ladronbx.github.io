@@ -2,14 +2,19 @@
 const aButton = document.getElementById('aButton');
 const bButton = document.getElementById('bButton');
 const yButton = document.getElementById('yButton');
+const xButton = document.getElementById('xButton');
 const offOn = document.getElementById('offOn');
 const upVol = document.getElementById('upVol');
 const downVol = document.getElementById('downVol');
+
+
+const screenBlack = document.getElementById('screenBlack');
 
 // Videos
 const animal = document.getElementById('videoAnimal');
 const zelda = document.getElementById('videoZelda');
 const intro = document.getElementById('videoIntro');
+const pokemon = document.getElementById('videoPokemon');
 
 // Elemento de audio para la melodía
 const melodyAudio = document.getElementById('melodyAudio');
@@ -20,45 +25,150 @@ let melodyVolume = 1.0;
 // z-index
 let i = 0;
 
-offOn.addEventListener('click', () => {
+
+// Variable para rastrear si la pantalla está encendida o apagada
+let pantallaEncendida = false;
+
+// Función para apagar la pantalla y deshabilitar los botones
+function apagarPantalla() {
+  pantallaEncendida = false;
+  screenBlack.style.display = 'block'; 
+  screenBlack.style.zIndex = '999';
+  aButton.disabled = true;
+  bButton.disabled = true; 
+  yButton.disabled = true; 
+  xButton.disabled = true; 
+  upVol.disabled = true; 
+  downVol.disabled = true; 
+  
+  animal.pause();
+  zelda.pause();
+  intro.pause();
+  pokemon.pause();
+  melodyAudio.pause();
+}
+
+// Función para encender la pantalla y habilitar los botones
+function encenderPantalla() {
+  pantallaEncendida = true;
+  screenBlack.style.display = 'none';
+  aButton.disabled = false;
+  bButton.disabled = false;
+  yButton.disabled = false;
+  xButton.disabled = false; 
+  upVol.disabled = false;
+  downVol.disabled = false;
+  
+  // Reiniciar la reproducción del video y la melodía
   restartVideo(animal);
-  i++;
-  animal.style.zIndex = i.toString();
   melodyAudio.play();
+}
+
+// Agrega un evento de clic al botón "offOn"
+offOn.addEventListener('click', () => {
+  if (pantallaEncendida) {
+    // Si la pantalla está encendida, apágala
+    apagarPantalla();
+  } else {
+    // Si la pantalla está apagada, enciéndela
+    encenderPantalla();
+  }
 });
 
+
 aButton.addEventListener('click', () => {
-  restartVideo(zelda);
-  i++;
-  zelda.style.zIndex = i.toString();
+  if (pantallaEncendida) {
+    restartVideo(zelda);
+    i++;
+    zelda.style.zIndex = i.toString();
+  }
 });
 
 bButton.addEventListener('click', () => {
-  restartVideo(intro);
-  i++;
-  intro.style.zIndex = i.toString();
+  if (pantallaEncendida) {
+    restartVideo(intro);
+    i++;
+    intro.style.zIndex = i.toString();
+  }
 });
 
 yButton.addEventListener('click', () => {
-  restartVideo(zelda);
-  i++;
-  zelda.style.zIndex = i.toString();
+  if (pantallaEncendida) {
+    restartVideo(animal);
+    i++;
+    animal.style.zIndex = i.toString();
+  }
+});
+
+xButton.addEventListener('click', () => {
+  if (pantallaEncendida) {
+    restartVideo(pokemon);
+    i++;
+    pokemon.style.zIndex = i.toString();
+  }
 });
 
 upVol.addEventListener('click', () => {
-  melodyVolume = Math.min(1.0, melodyVolume + 0.1);
-  melodyAudio.volume = melodyVolume;
+  if (pantallaEncendida) {
+    melodyVolume = Math.min(1.0, melodyVolume + 0.1);
+    melodyAudio.volume = melodyVolume;
+  }
 });
 
 downVol.addEventListener('click', () => {
-  melodyVolume = Math.max(0.0, melodyVolume - 0.1);
-  melodyAudio.volume = melodyVolume;
+  if (pantallaEncendida) {
+    melodyVolume = Math.max(0.0, melodyVolume - 0.1);
+    melodyAudio.volume = melodyVolume;
+  }
 });
 
 function restartVideo(videoElement) {
   videoElement.currentTime = 0;
   videoElement.play();
 }
+
+
+// ...
+
+
+// offOn.addEventListener('click', () => {
+//   restartVideo(animal);
+//   i++;
+//   animal.style.zIndex = i.toString();
+//   melodyAudio.play();
+
+
+//   //screenBlack
+// });
+
+// aButton.addEventListener('click', () => {
+//   restartVideo(zelda);
+//   i++;
+//   zelda.style.zIndex = i.toString();
+// });
+
+// bButton.addEventListener('click', () => {
+//   restartVideo(intro);
+//   i++;
+//   intro.style.zIndex = i.toString();
+// });
+
+// yButton.addEventListener('click', () => {
+//   restartVideo(zelda);
+//   i++;
+//   zelda.style.zIndex = i.toString();
+// });
+
+// upVol.addEventListener('click', () => {
+//   melodyVolume = Math.min(1.0, melodyVolume + 0.1);
+//   melodyAudio.volume = melodyVolume;
+// });
+
+// downVol.addEventListener('click', () => {
+//   melodyVolume = Math.max(0.0, melodyVolume - 0.1);
+//   melodyAudio.volume = melodyVolume;
+// });
+
 
 
 

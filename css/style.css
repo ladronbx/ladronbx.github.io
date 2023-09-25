@@ -515,14 +515,21 @@ right -0.02*/
   position: absolute;
   width: 41.5em;
   height: 23.2em;
-  z-index:0;
-
+  z-index: 0;
 }
 
 #videoZelda {
   position: absolute;
   height: auto;
   width: 102%;
+  z-index: -1;
+
+}
+#videoPokemon{
+  position: absolute;
+  width: 41.5em;
+  height: 23.2em;
+  z-index: -1;
 
 }
 
@@ -531,6 +538,7 @@ right -0.02*/
   position: absolute;
   height: auto;
   width: 102%;
+  z-index: -1;
 
 
 }
@@ -539,6 +547,7 @@ right -0.02*/
   position: absolute;
   height: auto;
   width: 102%;
+  z-index: 0;
   
   }
 
@@ -549,7 +558,7 @@ right -0.02*/
 
 }
 
-#aButton:hover, #bButton:hover, #yButton:hover {
+#aButton:hover, #bButton:hover, #yButton:hover, #xButton:hover {
   cursor: pointer;
 }
 
