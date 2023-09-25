@@ -63,37 +63,45 @@ Una vez definidas las clases. He investigado las **medidas exactas** de la conso
 
 Esta página web interactiva de la consola Nintendo Switch Oled te permite disfrutar de varias funciones. A continuación, se describen las principales funciones y cómo usarlas:
 
-![Gif Video About](img/movimiento.gif)
+
+#### Joy-Cons y Montaje
+
+- **Joy-Cons y Montaje**: Puedes interactuar con los Joy-Cons y el montaje de la consola haciendo clic sobre la consola. Los elementos se moverán y cambiarán de posición en respuesta a tus clics. Experimenta haciendo clic varias veces para ver cómo se mueven.
+![Gif Video About](img/img-readme/movimiento.gif)
+
 
 #### Botones
+
 - **Botón Encendido/Apagado**: 
+![Gif Video About](img/img-readme/botonOffOn.gif)
+
 
 
 - **Botón A**:
+![Gif Video About](img/img-readme/aButton.gif)
 
-- **Botón B**: Al hacer clic en este botón, se activa el video de la introducción. El video también se superpone en la pantalla principal y puede cambiar su posición en la pantalla haciendo clic en el botón de encendido/apagado.
+- **Botón X**: 
+![Gif Video About](img/img-readme/xboton.gif)
 
-- **Botón Y**: Similar al botón A, al hacer clic en este botón, se activa el video de Zelda. Puedes cambiar su posición en la pantalla haciendo clic en el botón de encendido/apagado.
+- **Botón B**:
+![Gif Video About](img/img-readme/bButton.gif)
 
-
-
-- **Botones de Volumen**: Los botones "Subir Volumen" y "Bajar Volumen" te permiten ajustar el volumen de la melodía de fondo. Puedes subir o bajar el volumen haciendo clic en estos botones.
-
-#### Videos
-
-- **Video de Zelda**: Este video muestra contenido relacionado con el juego Zelda. Puedes activarlo haciendo clic en los botones A, Y o B.
-
-- **Video de Introducción**: Este video muestra una introducción. Puedes activarlo haciendo clic en el botón B.
-
-- **Video de Animales**: Este video muestra imágenes de animales y se inicia al hacer clic en el botón de encendido/apagado.
+- **Botón Y**: 
+![Gif Video About](img/img-readme/yButton.gif)
 
 #### Melodía de Fondo
 
 - **Melodía de Fondo**: La página incluye una melodía de fondo que se inicia automáticamente cuando haces clic en el botón de encendido/apagado. Puedes ajustar el volumen de la melodía utilizando los botones de volumen.
 
-#### Joy-Cons y Montaje
 
-- **Joy-Cons y Montaje**: Puedes interactuar con los Joy-Cons y el montaje de la consola haciendo clic en la pantalla. Los elementos se moverán y cambiarán de posición en respuesta a tus clics. Experimenta haciendo clic varias veces para ver cómo se mueven.
+- **Botón de Volumen + (Arriba)**:
+  - Este botón aumenta el volumen de la melodía que se reproduce en la consola. Cada vez que haces clic en este botón, el volumen aumenta en un 10% hasta llegar al volumen máximo.
+- **Botón de Volumen - (Abajo)**:
+  - Este botón disminuye el volumen de la melodía que se reproduce en la consola. Cada vez que haces clic en este botón, el volumen disminuye en un 10% hasta llegar al volumen mínimo.
+
+
+
+
 
 Estas son las principales funciones interactivas de la consola Nintendo Switch Oled. **¡Diviértete explorando y disfrutando de esta experiencia interactiva!**
 
@@ -110,6 +118,9 @@ Si deseas ejecutar el proyecto localmente, sigue estos pasos:
 
 
 ### Media Query
+
+- **Botón Y**: 
+![Gif Video About](img/img-readme/responsive.gif)
 
 El proyecto utiliza media queries para garantizar una experiencia de usuario óptima en pantallas de diferentes tamaños. A continuación, se describen algunas de las modificaciones realizadas para pantallas de diferentes tamaños:
 
