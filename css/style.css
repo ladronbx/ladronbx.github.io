@@ -5,7 +5,7 @@ html, body {
 }
 html {
 
-  font-size: 0.7em;
+  font-size: 0.90em;
 }
 
 @media only screen and (max-width: 900px) {
@@ -62,6 +62,7 @@ body {
   justify-content: space-between;
   width: 60em;
   height: 25em;
+
 
 }
 
@@ -379,6 +380,8 @@ body {
   border-right: 0.5em solid transparent; 
   border-bottom: 1em solid rgb(43, 42, 42);
 }
+
+
 .leftTriangle {
   margin-right: 0.2em;
   width: 0;
@@ -414,7 +417,6 @@ body {
 
 /*Pantalla*/
 
-
 .mounting {
   padding: 0;
   margin: 0;
@@ -423,12 +425,11 @@ body {
   align-items: end;
   position: relative;
   z-index: 4;
-
-
   width: 44em;
   height: 25em;
-
+  box-shadow: rgba(0, 0, 0, 0.25) 0em 0em 0em, rgba(0, 0, 0, 0.22) 0em 0.95em 1em;
 }
+
 
 .boxRiel{
   position: relative;
@@ -789,6 +790,9 @@ right -0.02*/
 }
 
 .home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-position: center;
   background-size: 77%;
   width: 1.9em;
@@ -804,6 +808,9 @@ right -0.02*/
 .home:hover{
   cursor: pointer;
 }
+
+
+
 
 .boxWhiteRight {
   margin: 0;
@@ -872,7 +879,7 @@ right -0.02*/
   height: auto;
   z-index: 4;
   bottom: 0em;
-  animation: movimientoInfinito 30s linear infinite;
+  animation: movimientoInfinito 22s linear infinite;
 }
 
 @keyframes movimientoInfinito {
@@ -880,7 +887,7 @@ right -0.02*/
     left: 9em;
   }
   50% {
-    left: 73%;
+    left: 75%;
   }
 }
 
