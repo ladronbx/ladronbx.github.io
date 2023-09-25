@@ -3,7 +3,7 @@
 ---
 
 #  Nintendo Switch Oled Interactiva
-🎮 [Nintendo Switch Oled - Interactiva](https://github.com/ladronbx/nintendo-switch-interactiva.git) 🎮
+🎮 [Nintendo Switch Oled - Interactiva](https://ladronbx.github.io/nintendo-switch-interactiva/) 🎮
 
 **Segundo proyecto del Bootcamp Full Stack Developer Presencial en la academia GeeksHubs en Valencia**
 
@@ -67,7 +67,14 @@ Esta página web interactiva de la consola Nintendo Switch Oled te permite disfr
 #### Joy-Cons y Montaje
 
 - **Joy-Cons y Montaje**: Puedes interactuar con los Joy-Cons y el montaje de la consola haciendo clic sobre la consola. Los elementos se moverán y cambiarán de posición en respuesta a tus clics. Experimenta haciendo clic varias veces para ver cómo se mueven.
+
+
+
+
 ![Gif Video About](img/img-readme/movimiento.gif)
+
+
+
 
 
 #### Botones
@@ -119,7 +126,7 @@ Estas son las principales funciones interactivas de la consola Nintendo Switch O
 
 ## Instrucciones de visualización
 
-Para ver el proyecto en acción, puedes acceder a la página web en línea visitando el siguiente enlace: 🎮 [Nintendo Switch Oled - Interactiva](https://github.com/ladronbx/nintendo-switch-interactiva.git) 🎮
+Para ver el proyecto en acción, puedes acceder a la página web en línea visitando el siguiente enlace: 🎮 [Nintendo Switch Oled - Interactiva](https://ladronbx.github.io/nintendo-switch-interactiva/) 🎮
 
 Si deseas ejecutar el proyecto localmente, sigue estos pasos:
 
@@ -188,5 +195,5 @@ Si tienes preguntas, comentarios o sugerencias, no dudes en ponerte en contacto 
 
 ## Enlace Github Pages
 
-- 🎮 [Enlace Nintendo Switch Oled - Interactiva](https://github.com/ladronbx/nintendo-switch-interactiva.git) 🎮
+- 🎮 [Enlace Nintendo Switch Oled - Interactiva](https://ladronbx.github.io/nintendo-switch-interactiva/) 🎮
 ---
