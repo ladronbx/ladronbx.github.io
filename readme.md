@@ -21,11 +21,12 @@ Durante este proyecto, he aplicado los conocimientos adquiridos en la primera y 
 
 ## Índice
 
-- 🛠️ [Tecnologías utilizadas](#tecnologías-utilizadas) 
+- 🛠️ [Tecnologías utilizadas](#tecnologías-utilizadas)
+- 🏗️[¿Cómo se ha diseñado?](#¿Cómo-se-ha-diseñado?)
+- 📋 [Instrucciones de Uso](#instrucciones-de-uso)
 - 📱 [Media Query](#media-query)
 - 🧩 [Código Fuente](#código-fuente)
-(#carta-sushi-y-carta-vino)
-- 📋 [Instrucciones de Uso](#instrucciones-de-uso)
+- 🔝 [Mejoras](#mejoras-que-me-hubiese-gustado-integrar)
 - 🤝 [Contribuciones](#contribuciones)
 - 📧 [Contacto](#contacto)
 - 🌐 [Enlace Github Pages](#enlace-github-pages)
@@ -166,8 +167,6 @@ El código fuente de este proyecto se encuentra en el repositorio de GitHub [Nin
 
 Este proyecto ha sido desarrollado utilizando tecnologías estándar web como HTML, CSS y JavaScript para crear una experiencia interactiva y atractiva para los usuarios.
 
-
----
 
 ---
 
