@@ -1,4 +1,4 @@
-// Botones
+// Declaro botonoes
 const aButton = document.getElementById('aButton');
 const bButton = document.getElementById('bButton');
 const yButton = document.getElementById('yButton');
@@ -6,9 +6,6 @@ const xButton = document.getElementById('xButton');
 const offOn = document.getElementById('offOn');
 const upVol = document.getElementById('upVol');
 const downVol = document.getElementById('downVol');
-
-
-const screenBlack = document.getElementById('screenBlack');
 
 // Videos
 const animal = document.getElementById('videoAnimal');
@@ -25,8 +22,8 @@ let melodyVolume = 1.0;
 // z-index
 let i = 0;
 
-
 // Variable para rastrear si la pantalla está encendida o apagada
+const screenBlack = document.getElementById('screenBlack');
 let pantallaEncendida = false;
 
 // Función para apagar la pantalla y deshabilitar los botones
@@ -59,18 +56,14 @@ function encenderPantalla() {
   upVol.disabled = false;
   downVol.disabled = false;
   
-  // Reiniciar la reproducción del video y la melodía
   restartVideo(animal);
   melodyAudio.play();
 }
 
-// Agrega un evento de clic al botón "offOn"
 offOn.addEventListener('click', () => {
   if (pantallaEncendida) {
-    // Si la pantalla está encendida, apágala
     apagarPantalla();
   } else {
-    // Si la pantalla está apagada, enciéndela
     encenderPantalla();
   }
 });
@@ -127,52 +120,6 @@ function restartVideo(videoElement) {
   videoElement.play();
 }
 
-
-// ...
-
-
-// offOn.addEventListener('click', () => {
-//   restartVideo(animal);
-//   i++;
-//   animal.style.zIndex = i.toString();
-//   melodyAudio.play();
-
-
-//   //screenBlack
-// });
-
-// aButton.addEventListener('click', () => {
-//   restartVideo(zelda);
-//   i++;
-//   zelda.style.zIndex = i.toString();
-// });
-
-// bButton.addEventListener('click', () => {
-//   restartVideo(intro);
-//   i++;
-//   intro.style.zIndex = i.toString();
-// });
-
-// yButton.addEventListener('click', () => {
-//   restartVideo(zelda);
-//   i++;
-//   zelda.style.zIndex = i.toString();
-// });
-
-// upVol.addEventListener('click', () => {
-//   melodyVolume = Math.min(1.0, melodyVolume + 0.1);
-//   melodyAudio.volume = melodyVolume;
-// });
-
-// downVol.addEventListener('click', () => {
-//   melodyVolume = Math.max(0.0, melodyVolume - 0.1);
-//   melodyAudio.volume = melodyVolume;
-// });
-
-
-
-
-
 const leftJoyCon = document.getElementById('leftJoyCon');
 const rightJoyCon = document.getElementById('rightJoyCon');
 const mounting = document.getElementById('mounting');
@@ -212,10 +159,6 @@ containerMain.addEventListener('click', () => {
   }
 });
 
-
-
-
-
 //Animaciones visibles:
 const toggleButton = document.getElementById('toggleAnimaciones');
 const champiElement = document.querySelector('.champi');
@@ -224,7 +167,6 @@ const tuboElement = document.querySelector('.tuberia');
 const tubo2Element = document.querySelector('.tuberia2');
 
 toggleButton.addEventListener('click', function () {
-  // Cambia la visibilidad de los elementos al hacer clic en el botón
   if (champiElement.style.display === 'none') {
     champiElement.style.display = 'block';
     islaElement.style.display = 'block';
@@ -237,6 +179,3 @@ toggleButton.addEventListener('click', function () {
     tubo2Element.style.display = 'none';
   }
 });
-
-
-
